@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &3822585935763672067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4226272863185849973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48cfd1b7c6ca2164c85fec996e313500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeToDestruction: 2
+--- !u!1001 &4225838010643325477
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4718942127267540711, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e49a69a10d531054fabead44b521f50f, type: 2}
+    - target: {fileID: 1000010131827792, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+      propertyPath: m_Name
+      value: Tile_destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012818571366, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012818571366, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012818571366, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012818571366, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012818571366, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012818571366, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012818571366, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012818571366, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012818571366, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012818571366, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012818571366, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6611721832457478831, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6611721832457478831, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e49a69a10d531054fabead44b521f50f, type: 2}
+    m_RemovedComponents:
+    - {fileID: 61000013103663072, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+    - {fileID: 114000011605103534, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+--- !u!1 &4226272863185849973 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000010131827792, guid: 6417c2a8214b7ab45b35ac5e9e62c2cb, type: 3}
+  m_PrefabInstance: {fileID: 4225838010643325477}
+  m_PrefabAsset: {fileID: 0}
